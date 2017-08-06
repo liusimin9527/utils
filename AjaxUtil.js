@@ -1,6 +1,6 @@
 var AjaxUtil = {
   /**
-   * [get description]
+   * ajax中的get请求
    * @param  {[type]}   url      [description]
    * @param  {Function} callback [description]
    * @return {[type]}            [description]
@@ -19,7 +19,7 @@ var AjaxUtil = {
   },
 
   /**
-   * [post description]
+   * ajax中的post请求
    * @param  {[type]}   url      [description]
    * @param  {[type]}   data     [description]
    * @param  {Function} callback [description]

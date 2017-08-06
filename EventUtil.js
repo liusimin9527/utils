@@ -1,6 +1,6 @@
 var EventUtil = {
   /**
-   * [getEvent description]
+   * 获得事件对象
    * @param  {[type]} event [description]
    * @return {[type]}       [description]
    */
@@ -9,7 +9,7 @@ var EventUtil = {
   },
 
   /**
-   * [getTarget description]
+   * 获得事件对象的目标
    * @param  {[type]} event [description]
    * @return {[type]}       [description]
    */
@@ -18,7 +18,7 @@ var EventUtil = {
   },
 
   /**
-   * [addHandler description]
+   * 事件监听
    * @param {[type]} element [description]
    * @param {[type]} type    [description]
    * @param {[type]} handler [description]
@@ -34,7 +34,7 @@ var EventUtil = {
   },
 
   /**
-   * [removehandler description]
+   * 删除事件监听
    * @param  {[type]} element [description]
    * @param  {[type]} type    [description]
    * @param  {[type]} handler [description]
@@ -51,7 +51,7 @@ var EventUtil = {
   },
 
   /**
-   * [stopPropagetion description]
+   * 阻止事件冒泡
    * @param  {[type]} event [description]
    * @return {[type]}       [description]
    */
@@ -64,7 +64,7 @@ var EventUtil = {
   },
 
   /**
-   * [preventDefault description]
+   * 阻止默认事件
    * @param  {[type]} event [description]
    * @return {[type]}       [description]
    */
