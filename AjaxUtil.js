@@ -39,9 +39,9 @@ var AjaxUtil = {
     xhr.send(data);
 };
 /**
-  *  创建XMLHttpRequest对象
-  *  @return {[object]}   xhr      [description]
-  */
+ * 创建XMLHttpRequest对象
+ * @return {[object]}   xhr    [description]
+ */
 function createXHR() {
 	var xhr = null;
 
