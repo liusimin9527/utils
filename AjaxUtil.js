@@ -37,6 +37,7 @@ var AjaxUtil = {
     xhr.open('post', url);
     xhr.setRequestHeader("Content-Type", "application/x-www--form-urlencoded");
     xhr.send(data);
+  }
 };
 /**
  * 创建XMLHttpRequest对象
